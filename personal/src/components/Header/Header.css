@@ -15,16 +15,17 @@
   
   .overlap {
     top: 20%;
+    left: 5%; 
     position: absolute;
   }
 
   .buttons {
     margin-top: 50px;
-    margin-left: 60px;
+    margin-left: 50px;
   }
 
   .buttons img {
-    margin-right: 110px; 
+    margin-right: 50px; 
   }
   
   .piazzolla-overlap {

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Home, Projects, Solutions, Resume} from './pages'
+import {Home, Projects, About, Resume} from './pages'
 import "./App.css"
 import {
   BrowserRouter as Router, 
@@ -25,13 +25,13 @@ const App = () => {
         />
         <Route 
           exact 
-          path = "/solutions"
-          element={<Solutions />}
+          path = "/resume"
+          element={<Resume />}
         />
         <Route 
           exact 
-          path = "/resume"
-          element={<Resume />}
+          path = "/about"
+          element={<About />}
         />
         </Routes>
       </Router>
