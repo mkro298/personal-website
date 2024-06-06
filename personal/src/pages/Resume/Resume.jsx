@@ -1,14 +1,12 @@
 import React from 'react'
-import {res} from '../../assets'
-import { Document, Page } from 'react-pdf';
-
+import { PDF, Background } from '../../components';
 const Resume = () => {
+
   return (
-    <div>
- <Document file={res}>
- <Page pageNumber={1} />
- </Document>
- </div>
+    <>
+    <Background />
+     <PDF/>
+    </>
   )
 }
 

@@ -7,6 +7,6 @@ import rec3 from "./rec3.svg"
 import rec4 from "./rec5.svg"
 import recback from "./recback.svg"
 import text from "./text.svg"
-import res from "./resume.pdf"
+import res from "./res.pdf"
 
 export {topF, bottomF, back, rec1, rec2, rec3, rec4, recback, text, res}; 
