@@ -6,7 +6,7 @@
   .container {
     top: 150px; 
     left: 450px; 
-    position: relative;
+    position: absolute;
     width: 50%; 
     height: auto;
     justify-content: center;
@@ -28,12 +28,6 @@
     margin-right: 50px; 
   }
   
-  .piazzolla-overlap {
-  font-family: "Piazzolla", serif;
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-style: normal;
-}
 
 .buttons {
   display: flex;

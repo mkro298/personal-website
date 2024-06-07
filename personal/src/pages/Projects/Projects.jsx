@@ -1,8 +1,11 @@
 import React from 'react'
+import { Nav } from '../../components'
 
 const Projects = () => {
   return (
-    <div>Projects</div>
+    <>
+    <Nav />
+    </>
   )
 }
 

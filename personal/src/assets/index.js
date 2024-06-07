@@ -9,5 +9,7 @@ import recback from "./recback.svg"
 import text from "./text.svg"
 import res from "./res.pdf"
 import resText from "./Resume.svg"
+import menu from "./menu.svg"
+import exit from "./x.svg"
 
-export {topF, bottomF, back, rec1, rec2, rec3, rec4, recback, text, res, resText}; 
+export {topF, bottomF, back, rec1, rec2, rec3, rec4, recback, text, res, resText, menu, exit}; 

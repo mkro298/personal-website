@@ -1,10 +1,11 @@
 import React from 'react'
-import { PDF, Background } from '../../components';
+import { PDF, Background , Nav} from '../../components';
 const Resume = () => {
 
   return (
     <>
      <PDF/>
+     <Nav />
     </>
   )
 }
