@@ -1,9 +1,6 @@
 body {
     min-height: 100vh;
     max-height: 100vh;
-    background: url('../../assets/backimage.jpg');
-    background-size: cover;
-    background-position: center;
 }
 
 .border {
