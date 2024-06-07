@@ -11,5 +11,6 @@ import res from "./res.pdf"
 import resText from "./Resume.svg"
 import menu from "./menu.svg"
 import exit from "./x.svg"
+import home from "./home.png"
 
-export {topF, bottomF, back, rec1, rec2, rec3, rec4, recback, text, res, resText, menu, exit}; 
+export {topF, bottomF, back, rec1, rec2, rec3, rec4, recback, text, res, resText, menu, exit, home}; 

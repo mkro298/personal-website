@@ -1,5 +1,5 @@
 import React from 'react'
-import {rec1, rec2, rec3, menu, exit} from '../../assets'
+import {home, rec2, rec3, rec4, menu, exit} from '../../assets'
 import "./Nav.css"
 import { useState } from 'react'
 
@@ -17,10 +17,10 @@ const Nav = () => {
         </div>
         <div className={`dropdown ${open? 'active' : 'inactive'}`} >
             <ul>
-                <Drop img = {rec2} text = {"Home"} onClick={() => handleNavigation("/")}/>
+                <Drop img = {home} text = {"Home"} onClick={() => handleNavigation("/")}/>
                 <Drop img = {rec3} text = {"Projects"} onClick={() => handleNavigation("/projects")}/>
-                <Drop img = {rec3} text = {"Resume"} onClick={() => handleNavigation("/resume")}/>
-                <Drop img = {rec3} text = {"About"} onClick={() => handleNavigation("/about")}/>
+                <Drop img = {rec2} text = {"Resume"} onClick={() => handleNavigation("/resume")}/>
+                <Drop img = {rec4} text = {"About"} onClick={() => handleNavigation("/about")}/>
             </ul>
         </div>
     </div>

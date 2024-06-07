@@ -65,4 +65,5 @@
     max-width: 100px;
     margin-left: 10px;
     transition: var(--speed);
+    font-family: 'Piazzolla', serif;
 }
