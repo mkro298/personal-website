@@ -4,28 +4,25 @@
   }
   
   .container {
-    top: 150px; 
-    left: 425px; 
+    top: 200px; 
+    left: 375px; 
     position: absolute;
-    justify-content: center;
-    display: flex;
   }
 
   .blurb {
-    max-width: 700px;
+    min-width: 800px; 
     margin-left: 90px;
   }
   
   .overlap {
-    top: 15%;
+    margin-top: 100px;
     left: 0%; 
     position: absolute;
   }
 
   .text {
     display: flex;
-    margin-left: 275px;
-    margin-bottom: 70px; 
+    margin-left: 325px;
   }
 
   .buttons {
@@ -55,4 +52,8 @@
   outline: none; 
 }
 
+.headboard {
+  display: flex;
+  position: absolute;
+}
 

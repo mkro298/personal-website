@@ -1,9 +1,8 @@
 section {
     margin-top: 5%;
-    display: grid;
     place-items: center;
     align-content: center;
-    min-height: 120vh;
+    min-height: 100vh;
 }
 
 .hidden {
@@ -12,6 +11,7 @@ section {
     transition: all 1s;
     transform: translateY(10%);
 }
+
 
 @media(prefers-reduced-motion) {
     .hidden {

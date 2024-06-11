@@ -13,7 +13,11 @@ const Header = () => {
   return (
     <div>
         <div className='wrapper'>
+          
             <div className='container'>
+              <div className='headboard'>
+                <img src={recback}></img>
+              </div>
                 <div className='overlap'>
                   <div className='text'>
                   <span style={{ fontFamily: 'Piazzolla, serif', fontSize: '40px' }}>
@@ -37,7 +41,6 @@ const Header = () => {
                   </button>
                 </div>
                 </div>
-                <img src={recback} style={{ width: '900px', height: '600px', marginTop: '60px' }}></img>
             </div>
         </div>
     </div>

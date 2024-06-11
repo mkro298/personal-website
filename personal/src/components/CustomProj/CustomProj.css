@@ -1,17 +1,43 @@
-.container {
-    padding: 120px;
-    display: grid; 
-    margin-right: 100px;
+  .right {
+    display: flex; 
+    flex-direction: row-reverse;
+    text-align: right; 
   }
-  
-  .link {
-    margin-right: 10px;
-    text-decoration: none;
-    color:#d3c2ac; 
+  .left {
+    display: flex; 
+    flex-direction: row;
+    text-align: left; 
+  }
+
+  .right .text {
+    margin-right: 100px;
+    margin-left: 0;
+  }
+
+  .left .text {
+    margin-left: 100px;
   }
   
   .image {
-    width: 100px;
-    height: 100px;
+    width: 800px; 
+    height: auto; 
+    padding: 50px;
+  }
+  
+  .text {
+    display: flex;
+    flex-direction: column; 
+  }
+
+  .link {
+    color: rgb(189, 178, 163);
+  }
+
+  .right .image {
+    margin-left: 100px;
+  }
+
+  .left .image {
+    margin-right: 100px;
   }
   
