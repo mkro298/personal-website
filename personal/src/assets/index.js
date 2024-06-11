@@ -27,8 +27,11 @@ import art13 from "./art/13.jpg";
 
 import lc4 from "./proj/lc4.png"
 import game from "./proj/2048.jpeg"; 
+import bot from "./proj/bot.jpeg"
+import brush from "./proj/brush.jpeg"
+import kiki from "./proj/start.png"
 
 export {topF, bottomF, back, rec1, rec2, rec3, rec4, recback, 
     text, res, resText, menu, exit, home, 
     art1, art2, art4, art6, art10, art11, art12, art13, art7, art8, art9, 
-    lc4, game}; 
+    lc4, game, bot, brush, kiki}; 
