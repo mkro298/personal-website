@@ -5,23 +5,34 @@
   
   .container {
     top: 150px; 
-    left: 450px; 
+    left: 425px; 
     position: absolute;
     width: 50%; 
     height: auto;
     justify-content: center;
     display: flex;
   }
+
+  .blurb {
+    max-width: 700px;
+    margin-left: 90px;
+  }
   
   .overlap {
-    top: 20%;
-    left: 5%; 
+    top: 15%;
+    left: 0%; 
     position: absolute;
   }
 
+  .text {
+    display: flex;
+    margin-left: 275px;
+    margin-bottom: 70px; 
+  }
+
   .buttons {
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 80px;
+    margin-left: 10%;
   }
 
   .buttons img {
