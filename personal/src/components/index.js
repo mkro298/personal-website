@@ -3,6 +3,7 @@ import Background  from './Background/Background'
 import PDF from './PDF/PDF';
 import Nav from './Nav/Nav'; 
 import Carasoul from './Carasoul/Carasoul';
+import Scroll from './Scroll/Scroll';
 
 
-export {Header, Background, PDF, Nav, Carasoul}; 
+export {Header, Background, PDF, Nav, Carasoul, Scroll}; 

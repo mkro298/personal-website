@@ -1,10 +1,12 @@
 import React from 'react'
-import { Nav, Carasoul } from '../../components'
+import { Nav, Carasoul, Scroll } from '../../components'
+import "./Projects.css"
 
 const Projects = () => {
   return (
     <>
     <Nav />
+    <Scroll />
     </>
   )
 }

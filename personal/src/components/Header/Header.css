@@ -7,8 +7,6 @@
     top: 150px; 
     left: 425px; 
     position: absolute;
-    width: 50%; 
-    height: auto;
     justify-content: center;
     display: flex;
   }

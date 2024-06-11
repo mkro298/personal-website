@@ -1,0 +1,18 @@
+.container {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: grid; 
+  }
+  
+  .link {
+    margin-right: 10px;
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .image {
+    width: 100px;
+    height: 100px;
+  }
+  
