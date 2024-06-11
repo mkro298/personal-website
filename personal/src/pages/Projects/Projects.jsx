@@ -5,8 +5,8 @@ import "./Projects.css"
 const Projects = () => {
   return (
     <>
-    <Nav />
     <Scroll />
+    <Nav />
     </>
   )
 }

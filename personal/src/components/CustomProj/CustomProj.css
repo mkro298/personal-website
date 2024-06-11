@@ -1,14 +1,13 @@
 .container {
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    padding: 10px;
+    padding: 120px;
     display: grid; 
+    margin-right: 100px;
   }
   
   .link {
     margin-right: 10px;
     text-decoration: none;
-    color: blue;
+    color:#d3c2ac; 
   }
   
   .image {

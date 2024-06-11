@@ -8,7 +8,7 @@ const CustomProj = ({text, title, link, image}) => {
     <p>{title}</p>
     <p>{text}</p>
     <a href={link} className='link'>Github Link</a>
-    <img src={image} className='image'></img>
+    <img src={image} className='image' draggable='false'></img>
     </div>
     </>
   )
