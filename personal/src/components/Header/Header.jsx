@@ -13,8 +13,7 @@ const Header = () => {
   return (
     <div>
         <div className='wrapper'>
-          
-            <div className='container'>
+            <div className='box'>
               <div className='headboard'>
                 <img src={recback}></img>
               </div>

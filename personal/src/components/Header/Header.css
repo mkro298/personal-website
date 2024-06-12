@@ -1,9 +1,10 @@
 .wrapper {
     align-items: center;
     height: 0vh; 
+    position: fixed;
   }
   
-  .container {
+  .box {
     top: 200px; 
     left: 375px; 
     position: absolute;

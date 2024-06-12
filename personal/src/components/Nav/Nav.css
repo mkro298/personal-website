@@ -2,7 +2,6 @@
     --speed: 500ms;
   }
   
-
 .menu-trigger img{
     position: absolute;
     top: 50px; 
@@ -65,4 +64,10 @@
     margin-left: 10px;
     transition: var(--speed);
     font-family: 'Piazzolla', serif;
+}
+
+.menu-container {
+    position: fixed;
+    top: 0; 
+    right: 0;
 }

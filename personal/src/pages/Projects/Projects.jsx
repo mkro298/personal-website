@@ -1,5 +1,5 @@
 import React from 'react'
-import { Nav, Carasoul, Scroll } from '../../components'
+import { Nav, Grad, Scroll } from '../../components'
 import "./Projects.css"
 
 const Projects = () => {

@@ -1,20 +1,17 @@
-body {
-    min-height: 100vh;
-    max-height: 100vh;
-}
+
 
 .border {
   width: 100%;
 }
 
   .top {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
 
   }
   .bottom {
-    position: absolute;
+    position: fixed;
     bottom: 0%;
     right: 0;
   }
