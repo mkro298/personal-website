@@ -1,6 +1,16 @@
 # personal-website
 
 design notes: 
-- for about include previous experiences and education 
-- rather than resume have a section on experiences - timeline that you can move down? 
-    - link downloadable PDF resume 
+
+about me 
+    - education  
+    - blurb 
+    contact/information 
+    - linked resume 
+    - github 
+    - linkedin 
+    - email
+
+experiences 
+    - timeline to move down (parallel scrolling?)
+    - all experiences 

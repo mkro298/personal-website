@@ -19,7 +19,7 @@ const Nav = () => {
             <ul>
                 <Drop img = {home} text = {"Home"} onClick={() => handleNavigation("/")}/>
                 <Drop img = {rec3} text = {"Projects"} onClick={() => handleNavigation("/projects")}/>
-                <Drop img = {rec2} text = {"Resume"} onClick={() => handleNavigation("/resume")}/>
+                <Drop img = {rec2} text = {"Experience"} onClick={() => handleNavigation("/resume")}/>
                 <Drop img = {rec4} text = {"About"} onClick={() => handleNavigation("/about")}/>
             </ul>
         </div>
