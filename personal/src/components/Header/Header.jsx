@@ -50,7 +50,7 @@ function handleRec3() {
 }
 
 function handleRec2() {
-  window.location.href = '/resume'
+  window.location.href = '/experiences'
 }
 
 function handleRec4() {

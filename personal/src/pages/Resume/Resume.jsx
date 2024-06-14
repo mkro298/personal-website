@@ -4,7 +4,6 @@ const Resume = () => {
 
   return (
     <>
-     <PDF/>
      <Nav />
     </>
   )
