@@ -1,6 +1,6 @@
 import React from 'react'; 
 import "./Header.css"; 
-import { recback, rec2, rec3, rec4} from '../../assets';
+import { recback, exp, rec3, rec4} from '../../assets';
 import { useTypewriter } from 'react-simple-typewriter'
 
 const Header = () => { 
@@ -33,7 +33,7 @@ const Header = () => {
                    <img src={rec3}></img>
                    </button>
                   <button onClick={handleRec2}>
-                  <img src={rec2}></img>
+                  <img src={exp}></img>
                   </button>
                   <button onClick={handleRec4}>
                   <img src={rec4}></img>
