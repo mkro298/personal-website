@@ -24,7 +24,6 @@ const Scroll = () => {
 
     return (
         <>
-            <h1 className='hidden' style={{ fontFamily: 'Piazzolla, serif', fontSize: '40px', fontWeight: 'normal' }}>Projects</h1>
             <section className='hidden'><CustomProj text={"Built a disassembler in C that takes machine code and reverse assembles it to assembly language code. The program works by taking  a .obj file and parsing through contents to extract and store the  code/data sections and their PC addresses. The extracted code is then parsed through and the binary instructions for each line of code are broken down to be categorized into a type of assembly instruction. These instructions are translated into assembly code based on the LC4 ISA instructions, which are then compiled into one .asm file which can be run through an assembler and run as intended by the original file."} 
             title={"LC4 Disassembler"} link={"https://github.com/mkro298/lc4Dissasembler"} image={lc4} pos={'left'} but={'Source Code'}/></section>
 
