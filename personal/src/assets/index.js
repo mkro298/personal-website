@@ -32,8 +32,14 @@ import brush from "./proj/brush.jpeg"
 import kiki from "./proj/start.png"
 import paper from "./proj/water.pdf"
 import water from "./proj/waterpic.png"
+import prof from "./profile.jpeg"
+
+import circ from "./circleback.svg"
+import em from "./email.png"
+import link from "./business.png"
+import aboutback from "./aboutback.svg"
 
 export {topF, bottomF, back, rec1, rec2, rec3, rec4, recback, 
     text, res, resText, menu, exit, home, 
     art1, art2, art4, art6, art10, art11, art12, art13, art7, art8, art9, 
-    lc4, game, bot, brush, kiki, paper, water}; 
+    lc4, game, bot, brush, kiki, paper, water, prof, circ, em, link, aboutback}; 
