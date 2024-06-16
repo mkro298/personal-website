@@ -39,8 +39,10 @@ import em from "./email.png"
 import link from "./business.png"
 import aboutback from "./aboutback.svg"
 import exp from "./exp.svg"
+import pallete from "./pal.svg"
 
 export {topF, bottomF, back, rec1, rec2, rec3, rec4, recback, 
     text, res, resText, menu, exit, home, 
     art1, art2, art4, art6, art10, art11, art12, art13, art7, art8, art9, 
-    lc4, game, bot, brush, kiki, paper, water, prof, circ, em, link, aboutback, exp}; 
+    lc4, game, bot, brush, kiki, paper, water, prof, circ, em, link, 
+    aboutback, exp, pallete}; 

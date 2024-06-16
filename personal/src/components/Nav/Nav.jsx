@@ -1,5 +1,5 @@
 import React from 'react'
-import {home, exp, rec3, rec4, menu, exit} from '../../assets'
+import {home, pallete, rec3, rec4, menu, exit} from '../../assets'
 import "./Nav.css"
 import { useState } from 'react'
 
@@ -19,7 +19,7 @@ const Nav = () => {
             <ul>
                 <Drop img = {home} text = {"Home"} onClick={() => handleNavigation("/")}/>
                 <Drop img = {rec3} text = {"Projects"} onClick={() => handleNavigation("/projects")}/>
-                <Drop img = {exp} text = {"Experience"} onClick={() => handleNavigation("/experiences")}/>
+                <Drop img = {pallete} text = {"Art"} onClick={() => handleNavigation("/art")}/>
                 <Drop img = {rec4} text = {"About"} onClick={() => handleNavigation("/about")}/>
             </ul>
         </div>

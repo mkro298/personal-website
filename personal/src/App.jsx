@@ -24,7 +24,7 @@ const App = () => {
         />
         <Route 
           exact 
-          path = "/experiences"
+          path = "/art"
           element={<Resume />}
         />
         <Route 

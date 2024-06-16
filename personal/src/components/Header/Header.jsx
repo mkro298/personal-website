@@ -1,6 +1,6 @@
 import React from 'react'; 
 import "./Header.css"; 
-import { recback, exp, rec3, rec4} from '../../assets';
+import { recback, exp, rec3, rec4, pallete} from '../../assets';
 import { useTypewriter } from 'react-simple-typewriter'
 
 const Header = () => { 
@@ -33,7 +33,7 @@ const Header = () => {
                    <img src={rec3}></img>
                    </button>
                   <button onClick={handleRec2}>
-                  <img src={exp}></img>
+                  <img src={pallete}></img>
                   </button>
                   <button onClick={handleRec4}>
                   <img src={rec4}></img>
@@ -50,7 +50,7 @@ function handleRec3() {
 }
 
 function handleRec2() {
-  window.location.href = '/experiences'
+  window.location.href = '/art'
 }
 
 function handleRec4() {
