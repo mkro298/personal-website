@@ -1,4 +1,26 @@
+p {
+    position: relative;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 200px;
+    padding-bottom: 0;
+}
 
+.fade-out-text {
+    animation: fadeOut 16s forwards;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    60% { 
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 .back-container {
     position: relative;
     background-color: #ffffff;
@@ -8,7 +30,6 @@
     display: flex;
     max-width: 1450px;
     overflow: hidden;
-    margin-top: 15%;
     margin-left: 125px;
     height: 400px;
 }

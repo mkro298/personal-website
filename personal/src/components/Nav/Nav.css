@@ -19,9 +19,10 @@
     position: absolute;
     top: 100px; 
     right: 20px; 
-    background-color: transparent;
+    background-color: #f1f1e8;
     padding: 10px 20px;
     width: 150px; 
+    border-radius: 30px;
 }
 
 .dropdown.active{

@@ -30,17 +30,21 @@ const About = () => {
       <a href={res} target="_blank" >
       <button>
           <img src={rec2}></img>
+          <p style={{fontFamily: 'Piazzolla, serif', fontSize: '13px', fontWeight: 'normal'}}>Resume</p>
         </button>
       </a>
         <button onClick={handleGit}>
          <img src={rec1}></img>
+         <p style={{fontFamily: 'Piazzolla, serif', fontSize: '13px', fontWeight: 'normal'}}> Github</p>
         </button>
         <button onClick={handleLink}>
           <img src={link}></img>
+          <p style={{fontFamily: 'Piazzolla, serif', fontSize: '13px', fontWeight: 'normal'}}>LinkedIn</p>
         </button>
         <a href={`mailto:${email}`}>
         <button>
           <img src={em}></img>
+          <p style={{fontFamily: 'Piazzolla, serif', fontSize: '13px', fontWeight: 'normal'}}>Email</p>
         </button>
          </a>
     </div>

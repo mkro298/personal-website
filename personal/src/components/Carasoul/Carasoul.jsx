@@ -17,6 +17,9 @@ const Carasoul = () => {
 
     return (
         <>
+        <div className='fade-out-text'>
+        <p style={{fontFamily: 'Piazzolla, serif', fontSize: '30px', fontWeight: 'normal'}}>Scroll through sideways and click on images to enlarge</p>
+        </div>
             <div className='back-container'>
                 <div className='image-track'>
                     <button onClick={() => handleImageClick(art1)}><img src={art1} draggable="false" alt="Art 1" /></button>
