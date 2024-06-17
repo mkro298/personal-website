@@ -1,13 +1,11 @@
-p {
+
+.fade-out-text {
+    animation: fadeOut 16s forwards;
     position: relative;
     text-align: center;
     margin-top: 200px;
     margin-left: 200px;
     padding-bottom: 0;
-}
-
-.fade-out-text {
-    animation: fadeOut 16s forwards;
 }
 
 @keyframes fadeOut {
