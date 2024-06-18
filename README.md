@@ -1,2 +1,2 @@
 # personal-website
-View the website here: https://monishakro.netlify.app/
+View the website here: https://www.monishakrothapalli.com/
