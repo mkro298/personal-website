@@ -1,14 +1,23 @@
-import React from 'react'; 
+import React, {useState, useEffect } from 'react'; 
 import "./Header.css"; 
 import { recback, exp, rec3, rec4, pallete} from '../../assets';
 import { useTypewriter } from 'react-simple-typewriter'
 
 const Header = () => { 
-
-  const [text] = useTypewriter({
+  const [loopComplete, setLoopComplete] = useState(false);
+  const [text, count] = useTypewriter({
     words: ['a student', 'an engineer', 'an artist', 'Monisha!'],
-    loop: 0
+    loop: false,
+    onLoopDone: () => setLoopComplete(true)
   })
+
+  useEffect(() => {
+    if (loopComplete) {
+      setFinalText('Monisha!');
+    }
+  }, [loopComplete]);
+
+  const [finalText, setFinalText] = useState('');
 
   return (
     <div>
@@ -20,7 +29,7 @@ const Header = () => {
                 <div className='overlap'>
                   <div className='text'>
                   <span style={{ fontFamily: 'Piazzolla, serif', fontSize: '40px' }}>
-                      Hi, I am {text}
+                      Hi, I am {finalText || text}
                   </span>
                   </div>
                   <div className='blurb'>
@@ -31,12 +40,21 @@ const Header = () => {
                 <div className='buttons'>
                   <button onClick={handleRec3}>
                    <img src={rec3}></img>
+                   <div className='button-text'>
+                   <p style={{fontFamily: 'Piazzolla, serif', fontSize: '20px', fontWeight: 'normal', textAlign: 'center'}}>Projects</p>
+                   </div>                   
                    </button>
                   <button onClick={handleRec2}>
                   <img src={pallete}></img>
+                  <div className='button-text'>
+                  <p style={{fontFamily: 'Piazzolla, serif', fontSize: '20px', fontWeight: 'normal', textAlign: 'center'}}>Art</p>
+                  </div>
                   </button>
                   <button onClick={handleRec4}>
                   <img src={rec4}></img>
+                  <div className='button-text'>
+                  <p style={{fontFamily: 'Piazzolla, serif', fontSize: '20px', fontWeight: 'normal', textAlign: 'center'}}>About</p>
+                  </div>
                   </button>
                 </div>
                 </div>
