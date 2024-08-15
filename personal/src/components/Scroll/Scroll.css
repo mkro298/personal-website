@@ -37,6 +37,11 @@ h1 {
     animation: fadeOut 16s forwards;
 }
 
+.proj {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 @keyframes fadeOut {
     0% {
         opacity: 1;
