@@ -42,11 +42,12 @@ import exp from "./exp.svg"
 import pallete from "./pal.svg"
 
 import mix from "./search.png"
-
 import tt from "./proj/tt.jpg"
+import fl from "./proj/fl.png"
+
 
 export {topF, bottomF, back, rec1, rec2, rec3, rec4, recback, 
     text, res, resText, menu, exit, home, 
     art1, art2, art4, art6, art10, art11, art12, art13, art7, art8, art9, 
     lc4, game, bot, brush, kiki, paper, water, prof, circ, em, link, 
-    aboutback, exp, pallete, mix, tt}; 
+    aboutback, exp, pallete, mix, tt, fl}; 

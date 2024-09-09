@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import "./Scroll.css";
 import CustomProj from '../CustomProj/CustomProj';
-import {lc4, bot, brush, kiki, paper, water, mix, tt} from '../../assets'
+import {lc4, bot, brush, kiki, paper, water, mix, tt, fl} from '../../assets'
 
 const Scroll = () => {
     useEffect(() => {
@@ -48,6 +48,9 @@ const Scroll = () => {
 
             <section className='hidden'><CustomProj text={"Created an AI study tool that takes a PDF of a textbook from the user and allows them to select a chapter within the book to be analyzed. Uses the Facebook BART model to summarize the chapter and the text2text generation pipeline to create flippable flashcards based on the text."} 
             title={"TextTrove"} link={"https://github.com/mkro298/TextTrove"} image={tt} pos={'right'} but={'Source Code'}/></section>
+
+            <section className='hidden'><CustomProj text={"Built a web application in collaboration with Casey Family Programs, a national foundation focused on child welfare and foster care, with a small team of college students designed to support youth who recently aged out of the foster care system. The platform works as a social app with verified access for Casey Family Programs alumni to ensure the site stays as a safe place for foster care alumni only. It includes a community forum page that allows real-time social interactions akin to Reddit (posting, commenting, upvoting/downvoting) and encryption algorithms to protect user data and information."} 
+            title={"FosterLink"} link={"https://github.com/konankisa/FosterLink"} image={fl} pos={'left'} but={'Source Code'}/></section>
 
             </div>
         </>
