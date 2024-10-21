@@ -18,7 +18,7 @@ const About = () => {
     <div className='chunks'>
       <div>
       <p style={{fontFamily: 'Piazzolla, serif', fontSize: '20px', fontWeight: 'bold'}}>Monisha Krothapalli</p>
-      <p style={{fontFamily: 'Piazzolla, serif', fontSize: '20px', fontWeight: 'normal'}}>I am a CIS undergraduate student at UPenn, concentrating in AI, with a minor in economics. I’m passionate about using AI and its implications to reshape our world. I primarily have experience with Java, Python, and React but also work with numerous other languages and frameworks. I am always eager to learn and explore new opportunities in software development and AI and to expand my skill set. Please feel free to contact me to connect or discuss potential collaborations! </p>
+      <p style={{fontFamily: 'Piazzolla, serif', fontSize: '20px', fontWeight: 'normal'}}>I am a CIS undergraduate student at UPenn, concentrating in AI. I’m passionate about using AI and its implications to reshape our world. I primarily have experience with Java, Python, and React but also work with numerous other languages and frameworks. I am always eager to learn and explore new opportunities in software development and AI and to expand my skill set. Please feel free to contact me to connect or discuss potential collaborations! </p>
       </div>
       <div className='education'>
       <p style={{fontFamily: 'Piazzolla, serif', fontSize: '17px', fontWeight: 'bold'}}>Education</p>
