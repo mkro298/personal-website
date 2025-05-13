@@ -34,7 +34,7 @@ const Header = () => {
                   </div>
                   <div className='blurb'>
                   <h1 style={{fontFamily: 'Piazzolla, serif', fontSize: '20px', fontWeight: 'normal', textAlign: 'center'}}>
-                  Welcome to my personal website! I’m Monisha, a sophomore at UPenn studying computer science. Come explore my journey through code! Click on the below icons to look through my projects, art, and background.
+                  Welcome to my personal website! I’m Monisha, an incoming junior at UPenn studying computer science. Come explore my journey through code! Click on the below icons to look through my projects, art, and background.
                   </h1>
                   </div>
                 <div className='buttons'>

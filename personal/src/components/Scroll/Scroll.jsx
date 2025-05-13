@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import "./Scroll.css";
 import CustomProj from '../CustomProj/CustomProj';
-import {lc4, bot, brush, kiki, paper, water, mix, tt, fl} from '../../assets'
+import {lc4, dys, brush, kiki, paper, water, mix, tt, fl} from '../../assets'
 
 const Scroll = () => {
     useEffect(() => {
@@ -37,9 +37,6 @@ const Scroll = () => {
             <section className='hidden'><CustomProj text={"Built a beginner friendly programming language called Brush for users to create easy digital art with a team of 4 other students. We used Rust on the backend to build an interpreter and compiler for the Brush syntax that we designed and built a frontend for  users to practice writing and running code in our language and view their designs immediately."} 
             title={"Brush"} link={"https://github.com/mkro298/Brush"} image={brush} pos={'left'} but={'Source Code'}/></section>
 
-            <section className='hidden'><CustomProj text={"Built a Textbot in Java using a Markov’s Chain model trained on a series of tweets that can generate a tweet/block of text of an inputted desired length. I took a file of tweets, cleaned for training, and used it to map the probability distribution of adjacent words. The probability distribution was then used in the text generation process to pick the next word based on the start word in the sequence until a tweet of desired length was generated."} 
-            title={"TextBot"} link={"https://github.com/mkro298/TextBot"} image={bot} pos={'right'} but={'Source Code'}/></section>
-
             <section className='hidden'><CustomProj text={"Built a disassembler in C that takes machine code and reverse assembles it to assembly language code. The program works by taking  a .obj file and parsing through contents to extract and store the  code/data sections and their PC addresses. The extracted code is then parsed through and the binary instructions for each line of code are broken down to be categorized into a type of assembly instruction. These instructions are translated into assembly code based on the LC4 ISA instructions, which are then compiled into one .asm file which can be run through an assembler and run as intended by the original file."} 
             title={"LC4 Disassembler"} link={"https://github.com/mkro298/lc4Dissasembler"} image={lc4} pos={'right'} but={'Source Code'}/></section>
 
@@ -51,6 +48,9 @@ const Scroll = () => {
 
             <section className='hidden'><CustomProj text={"Built a web application in collaboration with Casey Family Programs, a national foundation focused on child welfare and foster care, with a small team of college students designed to support youth who recently aged out of the foster care system. The platform works as a social app with verified access for Casey Family Programs alumni to ensure the site stays as a safe place for foster care alumni only. It includes a community forum page that allows real-time social interactions akin to Reddit (posting, commenting, upvoting/downvoting) and encryption algorithms to protect user data and information."} 
             title={"FosterLink"} link={"https://github.com/konankisa/FosterLink"} image={fl} pos={'left'} but={'Source Code'}/></section>
+
+            <section className='hidden'><CustomProj text={"Developed an AI-powered tool to assist K-2nd grade educators with flagging childhood dyslexia through handwriting samples. Trained a neural network for image classification that took students writing samples and flagged them as either containing indicators of dyslexia or not and integrated a chatbot with OpenAI for teachers to create customized lesson plans. Won first place at the Wharton Hack-AI-thon and presented at the 2025 Wharton AI & Analytics Initiative Advisory Board Conference."} 
+            title={"Dyscover"} link={"https://github.com/shriyasane/wh-hackaithon-2025"} image={dys} pos={'right'} but={'Source Code'}/></section>
 
             </div>
         </>
