@@ -24,7 +24,7 @@ const About = () => {
       <p style={{fontFamily: 'Piazzolla, serif', fontSize: '17px', fontWeight: 'bold'}}>Education</p>
         <p style={{fontFamily: 'Piazzolla, serif', fontSize: '17px', fontWeight: 'normal'}}>University of Pennsylvania - Aug 2023 - May 2027 (Expected)</p>
         <p style={{fontFamily: 'Piazzolla, serif', fontSize: '17px', fontWeight: 'normal'}}>Bachelor of Science in Engineering (B.S.E.), Computer Science </p>
-        <p style={{fontFamily: 'Piazzolla, serif', fontSize: '17px', fontWeight: 'normal'}}>Relevant Courses: Data Structures and Algorithms, Intro to Computer Systems, Linear Algebra, Statistics, Discrete Math</p>
+        <p style={{fontFamily: 'Piazzolla, serif', fontSize: '17px', fontWeight: 'normal'}}>Relevant Courses: Data Structures and Algorithms, Operating Systems, Linear Algebra, Statistics, Applied ML</p>
       </div>
       <div className='contact'>
       <a href={res} target="_blank" >
