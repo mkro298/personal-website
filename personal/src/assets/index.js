@@ -32,7 +32,7 @@ import brush from "./proj/brush.jpeg"
 import kiki from "./proj/start.png"
 import paper from "./proj/water.pdf"
 import water from "./proj/waterpic.png"
-import prof from "./profile.jpeg"
+import prof from "./profile.png"
 import dys from "./proj/dys.png"
 
 import circ from "./circleback.svg"
